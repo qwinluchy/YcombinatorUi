@@ -1,0 +1,57 @@
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:270px ;
+
+}
+
+.top {
+    color: white;
+  background-color: orangered;
+  text-align: center;
+  width: 25px;
+  height: 30px;
+  font-family:sans-serif ;
+  font-size: larger;
+}
+
+.middle{
+    color: black; 
+font-size:larger;
+font-weight:600;
+font-family: sans-serif;
+}
+.text{
+    font-size:smaller;
+    font-weight: lighter;
+    font-family: sans-serif;
+  color: slategray;
+  margin: auto;
+   
+}
+
+.Email{
+    border: 0;
+    border-bottom:2px solid orangered ;
+    width: 300px;
+    display: flex;
+    text-align:start;
+    padding: 6px;
+    
+    
+}
+
+button{
+    width: 300px;
+    height: 35px;
+    margin-top: 20px;
+    color: white;
+    background-color: orangered;
+    border: 0;
+    border-radius: 4px;
+    font-size:small;
+    font-weight: 600;
+}
